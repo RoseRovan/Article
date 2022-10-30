@@ -1,7 +1,7 @@
 require 'pry'
 # require_relative 'author'
-# require_relative 'magazine'class Article
-
+# require_relative 'magazine'
+class Article
     attr_reader :author, :magazine, :title
 
     @@all = []
