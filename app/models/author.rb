@@ -1,11 +1,7 @@
+require_relative 'article'
 class Author
-  attr_accessor :name
-
+  attr_reader :name, :articles, :magazines
 
   def initialize(name)
     @name = name
-  
   end
-
-
-end
